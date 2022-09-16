@@ -31,6 +31,17 @@
     font-size: 3.4rem;
    
 }
+.us{
+  position: absolute;
+    border: 3px solid rgb(229, 255, 0);
+    height:6rem;
+    bottom: 6rem;
+    right: 0;
+    width: 27rem;
+    margin-right: 5%;
+    direction: rtl;
+    font-size: 2rem;
+}
 
 .nums {
   display: grid;
