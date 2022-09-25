@@ -1,7 +1,6 @@
 const up = document.querySelector(".previous-display");
 const down = document.querySelector(".current-display");
 const buttons = document.querySelector(".buttons-container");
-const calculator = document.querySelector(".calculator");
 
 buttons.addEventListener("click", (e) => {
   if (e.target.classList.contains("num")) {
