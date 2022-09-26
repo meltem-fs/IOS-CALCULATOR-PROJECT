@@ -6,7 +6,8 @@ buttons.addEventListener("click", (e) => {
   if (e.target.classList.contains("num")) {
     let numb = e.target.innerText;
     if (down.innerText == "0" && numb == "0") return;
-    if (down.innerText == "." && numb == ".") return;
+    if (down.innerText == "" && numb == ".") return;
+    if (down.innerText.includes(".") && numb == ".") return;
     if (down.innerText == "0" && numb != ".") {
       down.innerText = numb;
       return;
